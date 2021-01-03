@@ -1,2 +1,4 @@
+include ':thirdlibrary'
+include ':commonlibrary'
 include ':app'
 rootProject.name = "AndroidLearn"

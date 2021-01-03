@@ -25,26 +25,26 @@ android {
 }
 
 dependencies {
-    implementation fileTree(dir: "libs", include: ["*.jar"])
-    implementation rootProject.ext.dependencies["appcompat"]
-    implementation rootProject.ext.dependencies["kotlin-stdlib-jdk7"]
-    implementation rootProject.ext.dependencies["core-ktx"]
-    implementation rootProject.ext.dependencies["lifecycle-runtime-ktx"]
-    implementation rootProject.ext.dependencies["lifecycle-common-java8"]
-    implementation rootProject.ext.dependencies["lifecycle-extensions"]
-    implementation rootProject.ext.dependencies["lifecycle-viewmodel-ktx"]
-    implementation rootProject.ext.dependencies["fragment-ktx"]
-    implementation rootProject.ext.dependencies["lifecycle-livedata-ktx"]
-    implementation rootProject.ext.dependencies["unpeek-livedata"]
-    implementation rootProject.ext.dependencies["navigation-runtime-ktx"]
-    implementation rootProject.ext.dependencies["lifecycle-livedata-ktx"]
-    implementation rootProject.ext.dependencies["unpeek-livedata"]
-    implementation rootProject.ext.dependencies["retrofit"]
-    implementation rootProject.ext.dependencies["converter-gson"]
-  //  implementation rootProject.ext.dependencies["PersistentCookieJar"]
-    implementation rootProject.ext.dependencies["retrofit-url-manager"]
+    api fileTree(dir: "libs", include: ["*.jar"])
+    api rootProject.ext.dependencies["appcompat"]
+    api rootProject.ext.dependencies["kotlin-stdlib-jdk7"]
+    api rootProject.ext.dependencies["core-ktx"]
+    api rootProject.ext.dependencies["lifecycle-runtime-ktx"]
+    api rootProject.ext.dependencies["lifecycle-common-java8"]
+    api rootProject.ext.dependencies["lifecycle-extensions"]
+    api rootProject.ext.dependencies["lifecycle-viewmodel-ktx"]
+    api rootProject.ext.dependencies["fragment-ktx"]
+    api rootProject.ext.dependencies["lifecycle-livedata-ktx"]
+    api rootProject.ext.dependencies["unpeek-livedata"]
+    api rootProject.ext.dependencies["navigation-runtime-ktx"]
+    api rootProject.ext.dependencies["lifecycle-livedata-ktx"]
+    api rootProject.ext.dependencies["unpeek-livedata"]
+    api rootProject.ext.dependencies["retrofit"]
+    api rootProject.ext.dependencies["converter-gson"]
+    api rootProject.ext.dependencies["retrofit-url-manager"]
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    //  implementation rootProject.ext.dependencies["PersistentCookieJar"]
 
 }

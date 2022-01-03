@@ -1,4 +1,4 @@
-package com.mix.androidlearn
+package com.mix.news
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

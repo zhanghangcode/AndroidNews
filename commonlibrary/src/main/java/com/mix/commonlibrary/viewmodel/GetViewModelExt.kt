@@ -3,7 +3,6 @@ package com.mix.commonlibrary.viewmodel
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.mix.commonlibrary.base.BaseApp
 
 
 import java.lang.reflect.ParameterizedType

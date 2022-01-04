@@ -32,7 +32,7 @@ object Configuration {
         const val application_id = "com.wj.sampleproject"
 
         /** コンパイル SDK バージョン */
-        const val compile_sdk_version = 29
+        const val compile_sdk_version = 31
 
         /** コンパイル　ツール　バージョン */
         const val build_tools_version = "29.0.3"
@@ -41,7 +41,7 @@ object Configuration {
         const val min_sdk_version = 21
 
         /** タッゲト　バージョン */
-        const val target_sdk_version = 29
+        const val target_sdk_version = 31
 
         /** アプリ　バージョン番号 */
         const val version_code = 1
@@ -62,7 +62,7 @@ object Configuration {
         const val kotlin_version = "1.4.21"
 
         /** core バージョン */
-        const val core_version = "1.3.2"
+        const val core_version = "1.3.0"
 
         /** room バージョン */
         const val room_version = "2.2.5"
@@ -144,7 +144,7 @@ object Configuration {
         const val androidx_legacy = "androidx.legacy:legacy-support-v4:1.0.0"
 
         /** androidx - appcompat */
-        const val androidx_appcompat = "androidx.appcompat:appcompat:1.2.0"
+        const val androidx_appcompat = "androidx.appcompat:appcompat:1.4.0"
 
         /** androidx material */
         const val androidx_material = "com.google.android.material:material:1.2.1"

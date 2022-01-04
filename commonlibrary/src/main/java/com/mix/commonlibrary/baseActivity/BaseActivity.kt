@@ -1,7 +1,6 @@
 package com.mix.commonlibrary.baseActivity
 
 import android.os.Bundle
-import android.os.PersistableBundle
 import android.view.MotionEvent
 import androidx.appcompat.app.AppCompatActivity
 import com.mix.commonlibrary.tools.hideSoftKeyboard

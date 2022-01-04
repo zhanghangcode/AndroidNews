@@ -1,5 +1,0 @@
-include ':thirdlibrary'
-include ':commonlibrary'
-include ':app'
-rootProject.name = "AndroidLearn"
-include ':buildsrc'
